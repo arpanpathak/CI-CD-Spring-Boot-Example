@@ -18,6 +18,7 @@ public class CiCdExampleApplication {
 
 	@GetMapping("home")
 	public Map<String, String> greetings() {
+		// Comment for testing Jenkins pipeline
 		Map<String, String> response = new HashMap<>();
 		
 		response.put("version", "7.0");
